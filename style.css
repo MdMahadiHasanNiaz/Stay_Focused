@@ -6,7 +6,7 @@ body{
 .top-section{
     display: flex;
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .top-section img{
@@ -16,6 +16,14 @@ body{
 
 h1{
     font-size: 50px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 25px;
 }
 
 .content1{
@@ -41,4 +49,47 @@ span{
     border-left: 5px solid;
     border-image: linear-gradient(orange , tomato);
     border-image-slice: 1;
+}
+
+.mid-section{
+    text-align: center;
+}
+.mission{
+    background-color: #4f9da6;
+    height: 376px;
+    width: 360px;
+    border-radius: 12px;
+}
+
+.vision{
+    background-color: #ff5959;
+    height: 376px;
+    width: 360px;
+    border-radius: 12px;
+}
+
+.goals{
+    background-color:#FFF4D6 ;
+    height: 376px;
+    width: 360px;
+    border-radius: 12px;
+}
+
+.tintaportion{
+    display: flex;
+    justify-content: center;
+}
+
+.mission, .vision, .goals{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.tintaportion img{
+    height: 141px;
+    width: 141px;
+}
+
+.mission, .vision, .goals p{
+    padding: 8px;
 }
