@@ -37,7 +37,7 @@ span{
     color: orange;
 }
 
-.content1 a{
+.content1 a, .third-section a, .forth-section a{
     text-decoration: none;
     background-color: tomato;
     color: white;
@@ -92,4 +92,29 @@ span{
 
 .mission, .vision, .goals p{
     padding: 8px;
+}
+
+.third-section img, .forth-section img{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.third-section, .forth-section{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.third-section div, .forth-section div{
+    width: 50%;
+}
+
+
+footer{
+    background-color: #0B0D17;
+    height: 177px;
+    width: 1440;
+    color: white;
+    text-align: center;
 }
