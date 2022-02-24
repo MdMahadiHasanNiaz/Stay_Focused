@@ -118,3 +118,30 @@ footer{
     color: white;
     text-align: center;
 }
+
+.extradiv{
+    justify-content: center;
+    text-align: center;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+.growth{
+    background-color: #FFF4D6;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 35px;
+}
+
+.growth img{
+    width: 160px;
+    height: 200px;
+    margin-top: 10px;
+}
